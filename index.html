@@ -1,50 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bonifase Orwa | Back-end + Front-end Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/aos.css" />
   </head>
   <body>
     <main>
       <!-- ***************  ABOUT / PROFILE  **************** -->
       <header>
-        <div class="content-wrap">
+       
+        <div class="content-wrap" id="home" data-aos="zoom-in-up">
           <h1>Bonifase Orwa</h1>
           <h2>Back-end + Front-end Developer</h2>
 
-          <p>I enjoy creating solutions to problems using computers because I am a software engineer professional with a high aptitude for solving web applications development processes and operational challenges with elegant and timely solutions. I possess a deep understanding of Python and JavaScript as my main stacks plus I also enjoy working with web-based application frameworks such as Flask, Django, Express, JavaScript front-end libraries such as React/Redux, relational database management systems like MySQL, Postgresql, as well as NoSQL such as MongoDB, and Python data analysis, having worked with them in my previous and present career development. I hold a BSc in Computer Science with ever-growing experience in software engineering. </p>
-          <p>I’m also exploring more creative pursuits designing tee shirts and accessories for <a href="http://bonifaseorwa.co.ke" target="_blank">Bonihub.com</a>, an online store I’m running.</p>
+          <p>
+            I enjoy creating solutions to problems using computers because I am a software engineer professional with a high
+            aptitude for solving web applications development processes and operational challenges with elegant and timely
+            solutions. I possess a deep understanding of Python and JavaScript as my main stacks plus I also enjoy working with
+            web-based application frameworks such as Flask, Django, Express, JavaScript front-end libraries such as React/Redux,
+            relational database management systems like MySQL, Postgresql, as well as NoSQL such as MongoDB, and Python data
+            analysis, having worked with them in my previous and present career development. I hold a BSc in Computer Science
+            with ever-growing experience in software engineering.
+          </p>
+          <p>
+            I’m also exploring more creative pursuits designing tee shirts and accessories for
+            <a href="http://bonifaseorwa.co.ke" target="_blank">Bonihub.com</a>, an online store I’m running.
+          </p>
         </div>
       </header>
+      <!-- ************ SKILLS AND SERVICES / PORTFOLIO  ************** -->
+      <section class="services" id="skills">
+        <div class="content-wrap">
+          <h2>Skills & Services</h2>
+          <section class="skills">
+            <div class="skill-details" data-aos="fade-right">
+              <h3>Skills</h3>
+              <ul>
+                <li>Python. <img class="skill-img" src="images/python.png" alt="python" /></li>
+
+                <li>JavaScript. <img class="skill-img" src="images/js.png" alt="python" /></li>
+                <li>Node. <img class="skill-img" src="images/node-js.png" alt="python" /></li>
+                <li>Back-End Web Development</li>
+                <li>Database Development</li>
+                <li>Application Programming Interfaces</li>
+                <li>Representational State Transfer (REST)</li>
+              </ul>
+            </div>
+            <div class="services-details" data-aos="fade-left">
+              <h3>Services</h3>
+              <ul>
+                <li>Build a proffessional portfolio</li>
+                <li>Build a scalable web application for your business</li>
+                <li>Build robust business intelligence system.</li>
+                <li>Build a complete website for your business.</li>
+                <li>Build a complete portal for your system</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
 
       <!-- ************ PROJECTS / PORTFOLIO  ************** -->
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="content-wrap divider">
           <h2>Featured Projects</h2>
-          <p>View selected projects below. More information can be found at <a href="http://github.com/bonifase">Bonifase</a>.</p>
+          <p>
+            View selected projects below. More information can be found at <a href="http://github.com/bonifase">Bonifase</a>.
+          </p>
 
           <!-- Project 1 -->
-          <section class="project-item">
-            <img src="images/flights.png" alt="Lynda & LinkedIn Learning course list">
+          <section class="project-item" data-aos="fade-right">
+            <img src="images/flights.png" alt="Lynda & LinkedIn Learning course list" />
             <h3>Easy-travel</h3>
-            <p>✈️ A simple travel agency ✈️ website theme using Materialize CSS. Website Online, Design Systems & Architectures and more.</p>
+            <p>
+              ✈️ A simple travel agency ✈️ website theme using Materialize CSS. Website Online, Design Systems & Architectures
+              and more.
+            </p>
             <a class="btn" href="https://easy-travels.herokuapp.com/" target="_blank">View Easy-travel</a>
           </section>
 
           <!-- Project 2 -->
-          <section class="project-item">
-            <img src="images/wecon.png" alt="Women and Tech website">
+          <section class="project-item" data-aos="fade-left">
+            <img src="images/wecon.png" alt="Women and Tech website" />
             <h3>WeConnect</h3>
-            <p>WeConnect provides a platform that brings businesses and individuals together. This platform creates awareness for businesses and gives the users the ability to write reviews about the businesses they have interacted with. The app uses ReactJS, Redux, react-router and lots more.</p>
+            <p>
+              WeConnect provides a platform that brings businesses and individuals together. This platform creates awareness for
+              businesses and gives the users the ability to write reviews about the businesses they have interacted with. The
+              app uses ReactJS, Redux, react-router and lots more.
+            </p>
             <a class="btn" href="https://weconnectwebapp.herokuapp.com/" target="_blank">View WeConnect</a>
           </section>
 
           <!-- Project 3 -->
-          <section class="project-item">
-            <img src="images/blog.png" alt="The Wire Ipsum website">
+          <section class="project-item" data-aos="fade-up">
+            <img src="images/blog.png" alt="The Wire Ipsum website" />
             <h3>Blog Post Web Application</h3>
             <p>Create account, login, update your profile photo and post your first article.</p>
             <a class="btn" href="https://online-blog-post.herokuapp.com/" target="_blank">View live site</a>
@@ -53,61 +106,82 @@
       </section>
 
       <!-- ****************  WORK EXPERIENCE  ******************** -->
-      <section class="work-experience">
+      <section class="work-experience" id="work">
         <div class="content-wrap item-details divider">
           <h2>Work Experience</h2>
-          <p>See my complete work history on my <a href="https://www.linkedin.com/in/bonifase-orwa-752245122/">LinkedIn</a> profile.</p>
+          <p>
+            See my complete work history on my
+            <a href="https://www.linkedin.com/in/bonifase-orwa-752245122/">LinkedIn</a> profile.
+          </p>
 
           <!-- Job 1 -->
-          <section class="job-item">
+          <section class="job-item" data-aos="fade-up-right">
             <div class="job-details">
               <h3>Software Engineer</h3>
               <p>Andela</p>
               <p>April 2018-Present</p>
             </div>
             <div class="job-summary">
-              <p>Andela is a network of technology leaders dedicated to advancing human potential. We help companies build high-performing distributed engineering teams by investing in Africa’s most talented software developers. See more at  <a href="http://andela.com">andela.com</a> about the company.</p> 
+              <p>
+                Andela is a network of technology leaders dedicated to advancing human potential. We help companies build
+                high-performing distributed engineering teams by investing in Africa’s most talented software developers. See
+                more at <a href="http://andela.com">andela.com</a> about the company.
+              </p>
 
-              <p>l primarily work as a software engineer for Andela’s clients and partners. I am skilled at writing complex applications, have a deep understanding of application lifecycles, databases, and services. My responsibilities also include but not limited to Interfacing with clients to understand their business, goals, and visions for products being supported by an Andela team as well as performing a world-class, high-quality work that not only meets the need of the client but also surpasses it.
+              <p>
+                l primarily work as a software engineer for Andela’s clients and partners. I am skilled at writing complex
+                applications, have a deep understanding of application lifecycles, databases, and services. My responsibilities
+                also include but not limited to Interfacing with clients to understand their business, goals, and visions for
+                products being supported by an Andela team as well as performing a world-class, high-quality work that not only
+                meets the need of the client but also surpasses it.
               </p>
             </div>
           </section>
 
           <!-- Job 2 -->
-          <section class="job-item">
+          <section class="job-item" data-aos="fade-up-left">
             <div class="job-details">
               <h3>Microsoft Technology Associate (MTA) Trainer</h3>
               <p>I Choose Life frica-Hour of Code</p>
               <p>September 2016 - January 2017</p>
             </div>
             <div class="job-summary">
-              <p>Microsoft Technology Associate (MTA) training. In this position, I was tasked with training the youth(18-35 years) on basic coding skills and server management to increase their employability. This initiative was sponsored by Microsoft and driven by ICL-Africa.</p>
+              <p>
+                Microsoft Technology Associate (MTA) training. In this position, I was tasked with training the youth(18-35
+                years) on basic coding skills and server management to increase their employability. This initiative was
+                sponsored by Microsoft and driven by ICL-Africa.
+              </p>
               <p>Key responsibilities:</p>
               <ul>
-                <li>Overhauled the curriculum and standardized the content and delivery.
+                <li>
+                  Overhauled the curriculum and standardized the content and delivery.
                   <ul>
                     <li>Created workshops focusing on HTML, CSS, JavaScript, jQuery, Wordpress and Responsive Web Design.</li>
-                    <li>Created all Hour of code content (2 day conference style event) consisting of 2-4 hour workshop sessions.</li>
+                    <li>
+                      Created all Hour of code content (2 day conference style event) consisting of 2-4 hour workshop sessions.
+                    </li>
                     <li>Created interactive slide deck template for consistent national workshop branding.</li>
                     <li>Developed the Digital marketing posters for mobilization.</li>
                   </ul>
                 </li>
                 <li>Provided training for all young people focusing on creating an inclusively employable youths.</li>
                 <li>Maintained the ladieslearningcode.com website.</li>
-                
               </ul>
             </div>
           </section>
 
           <!-- Job 3 -->
-          <section class="job-item">
+          <section class="job-item" data-aos="fade-down-right">
             <div class="job-details">
               <h3>Software Developer</h3>
               <p>Freelancer</p>
               <p>October 2013 - Present</p>
             </div>
             <div class="job-summary">
-              <p>Self-employed and not in a long-term contractual commitment to any one employer while focusing on research writing, computer programming and training. </p>
+              <p>
+                Self-employed and not in a long-term contractual commitment to any one employer while focusing on research
+                writing, computer programming and training.
+              </p>
               <p>Services and Products:</p>
               <ul>
                 <li>Responsible for setting code standards for the back-end and front-end development.</li>
@@ -116,30 +190,40 @@
               </ul>
             </div>
           </section>
-        
+
           <!-- Job 4 -->
-          <section class="job-item">
-              <div class="job-details">
-                <h3>Computer Science Intern</h3>
-                <p>Department of Immigration services(IT Section)</p>
-                <p>June 2012 - October 2012</p>
-              </div>
-              <div class="job-summary">
-                <p>The industrial internship was one of the requirements for the completion of BSc in Computer Science. It was a three month on the job work experience that was intended to introduce me to the real-world work environment and allow me to put my knowledge into use.  </p>
-                <p>Key responsibilities:</p>
-                <ul>
-                  <li>Interfacing with clients at the reception and directing them accordingly.</li>
-                  <li>Transforming and upgrading the manual registry section to a computerized system through the use of programming languages such as PHP and JavaScript.</li>
-                  <li>Verification and scanning of clients forms into the system and Contributing to the development of a computerized filing system.</li>
-                </ul>
-              </div>
-            </section>
+          <section class="job-item" data-aos="fade-down-left">
+            <div class="job-details">
+              <h3>Computer Science Intern</h3>
+              <p>Department of Immigration services(IT Section)</p>
+              <p>June 2012 - October 2012</p>
+            </div>
+            <div class="job-summary">
+              <p>
+                The industrial internship was one of the requirements for the completion of BSc in Computer Science. It was a
+                three month on the job work experience that was intended to introduce me to the real-world work environment and
+                allow me to put my knowledge into use.
+              </p>
+              <p>Key responsibilities:</p>
+              <ul>
+                <li>Interfacing with clients at the reception and directing them accordingly.</li>
+                <li>
+                  Transforming and upgrading the manual registry section to a computerized system through the use of programming
+                  languages such as PHP and JavaScript.
+                </li>
+                <li>
+                  Verification and scanning of clients forms into the system and Contributing to the development of a
+                  computerized filing system.
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
       </section>
 
       <!-- *************  EDUCATION & CERTIFICATIONS *********** -->
-      <section class="education">
-        <div class="content-wrap item-details">
+      <section class="education" id="education">
+        <div class="content-wrap item-details" data-aos="flip-left">
           <h2>Education</h2>
 
           <section>
@@ -163,7 +247,7 @@
 
       <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
       <footer>
-        <div class="content-wrap">
+        <div class="content-wrap" id="contact" data-aos="flip-up">
           <h2>Let's Keep in Touch!</h2>
 
           <!-- Social media and contact links. Add or remove any networks. -->
@@ -176,5 +260,12 @@
         </div>
       </footer>
     </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init({
+        duration: 2000
+      });
+    </script>
   </body>
 </html>
